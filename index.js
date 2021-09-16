@@ -17,17 +17,21 @@ form.addEventListener("submit", (wiseMan) => {
     messages.push("email is incorrect");
   }
 
-  if (password.value != 1234) {
+  // else if (password.value == null || password.value == ""  && email.value == null ||  email.value === "") {
+  //   messages.push("inputs can not be empty");
+  // }
+
+  else if (password.value != 1234) {
     messages.push("password is incorrect");
   }
  
-
 
  // Statement to shows the errors
   if (messages.length > 0) {
     errorMassage.innerText = messages.join(" or ");
     wiseMan.preventDefault();
   }
+ 
 //   else{
 //     window.location.assign("https://www.google.com");
 //   }
