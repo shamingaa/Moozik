@@ -39,7 +39,7 @@
                 <div class="row">
                     <div id="right">
                         <div class="container">
-                            <div class="col-sm-3" id="song-detail">
+                            <div  id="song-detail">
 
                             </div>
                         </div>

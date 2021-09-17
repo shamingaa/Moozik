@@ -141,17 +141,15 @@ const UIController = (function() {
 
           const html = 
           `
-          <div class="row">
-              <div class="col-md-4">
-                <img src="${img}" alt="">  
+          <div class="col-md-2">
+                <img src="${img}" alt="" id="thumbnail">  
               </div>
-              <div class="col-md-4">
-                <p class=" col-sm-12">${title}:</p>
+              <div >
+                <p >${title}:</p>
             </div>
-            <div class="col-md-4">
-                <p  class=" col-sm-12">By ${artist}:</p>
+            <div class="col-md-5">
+                <p >By ${artist}:</p>
             </div>
-          </div>
           `;
 
           detailDiv.insertAdjacentHTML('beforeend', html)
